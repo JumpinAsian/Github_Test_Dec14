@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+a{
+    color: #2b78E4;
+}
+
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.top-bar{
+    background-color: #c1c1c1;
+    height: 60px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 3.2rem;
+}
+
+#search{
+    border: 2px solid black;
+    width: 50%;
+    padding: 10px;
+}
+
+.btn-login{
+    border: 2px solid black;
+    color: white;
+    background-color: #2b78E4;
+    width: 7%;
+    padding: 10px;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+}
+
+.flex-2{
+    flex: 2;
+}
+
+.flex-1{
+    flex: 1;
+    margin-left: 30px;
+}
+
+.right-box{
+    background-color: white;
+    padding: 30px;
+    border: 4px solid #979797;
+    height: 100px;
+}
+
+.box-definition{
+    border: 4px solid #979797;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.left{
+    text-align: center;
+    flex: 1;
+}
+
+.left p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.btn-like{
+    background-color: #ffd966;
+    box-shadow: 2px 2px black;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.definition-text{
+    flex: 3;
+    margin-left: 80px;
+    font-size: 1.5rem;
+}
+
+.box h2{
+    font-size: 1.7rem;
+}
+
+.btn-add{
+    background-color: #93c47d;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    box-shadow: 4px 4px black;
+    font-size: 1rem;
+    cursor: pointer;
+}
